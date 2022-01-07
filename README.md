@@ -5,9 +5,18 @@
 
 <!-- badges: start -->
 
-[![Codecov test
-coverage](https://codecov.io/gh/vgherard/fcci/branch/master/graph/badge.svg)](https://codecov.io/gh/vgherard/fcci?branch=master)
+[![Project Status: Active – The project has reached a stable, usable
+state and is being actively
+developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![R-CMD-check](https://github.com/vgherard/fcci/workflows/R-CMD-check/badge.svg)](https://github.com/vgherard/fcci/actions)
+[![Codecov test
+coverage](https://codecov.io/gh/vgherard/fcci/branch/master/graph/badge.svg)](https://app.codecov.io/gh/vgherard/fcci?branch=master)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/fcci)](https://CRAN.R-project.org/package=fcci)
+[![R-universe
+status](https://vgherard.r-universe.dev/badges/fcci)](https://vgherard.r-universe.dev/)
+[![Website](https://img.shields.io/badge/Website-here-blue)](https://vgherard.github.io/fcci/)
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=%7Bfcci%7D:%20Feldman-Cousins%20Confidence%20Intervals%20in%20R&url=https://vgherard.github.io/r2r&via=ValerioGherardi&hashtags=rstats,statistics,physics,confidenceintervals)
 <!-- badges: end -->
 
 `fcci` is an R package providing support for building
@@ -40,12 +49,18 @@ rates, using an ordering for count values based on a likelihood ratio.
 
 ## Installation
 
-You can install the development version of `fcci` from
-[GitHub](https://github.com/vgherard/fcci) with:
+You can install the latest release of `fcci` from
+[CRAN](https://CRAN.R-project.org/package=fcci) using:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("vgherard/fcci")
+install.packages("fcci")
+```
+
+and the development version from [my
+R-universe](https://vgherard.r-universe.dev/) with:
+
+``` r
+install.packages("fcci", repos = "https://vgherard.r-universe.dev/")
 ```
 
 ## Example
